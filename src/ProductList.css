@@ -39,14 +39,25 @@ body {
    
 }
 
+.luxury img{
+    margin-right: 10px;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
     flex-direction: column;
     width: 100vw;
     align-items: center;
+    
     justify-content: center;
 }
+
+.product-grid h1{
+    text-align: center;
+    min-width: min-content;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
